@@ -41,32 +41,25 @@ desarrollada en las Entregas 1, 2, 3 y 4.
 Los cambios se preparan en ramas secundarias y se registran
 mediante commits descriptivos.
 
-La incorporación a la rama principal se realizará mediante
-Pull Requests con revisión de un compañero.
+La incorporación a la rama principal se realiza mediante Pull Requests. Para el PR N.º 1 se realizó una revisión propia documentada, según la alternativa autorizada por la docente ante la falta de un compañero revisor.
 
 ## Declaración de Uso de IA
 
-Se utilizó ChatGPT como apoyo para organizar la documentación,
-redactar borradores y proponer el modelado del proceso.
+Se utilizó ChatGPT (OpenAI) para organizar la documentación, proponer borradores del BPMN y redactar historias de usuario.
 
-### Instrucciones utilizadas
+### Prompts utilizados y su finalidad
 
-- Desarrollar la Entrega 4 manteniendo los datos de las entregas anteriores.
-- Representar el control de stock y reposición mediante BPMN.
-- Revisar las decisiones y las conexiones de las situaciones excepcionales.
+Los siguientes ejemplos resumen las instrucciones utilizadas:
 
-Estas instrucciones buscaron mantener la continuidad del proyecto
-y adaptar las propuestas al funcionamiento de Infinity Import S.A.
+- Representar el proceso de stock y reposición de Infinity Import S.A. mediante BPMN, incluyendo responsables y excepciones. La finalidad fue organizar el flujo del proceso.
+- Redactar historias de usuario para consultar stock, registrar movimientos y consultar proveedores, con criterios de aceptación. La finalidad fue estructurar el backlog.
+- Organizar el README con la descripción del proyecto, integrantes y funcionalidades previstas, manteniendo coherencia con las entregas anteriores.
 
-### Revisión crítica y correcciones
+### Revisión humana y correcciones
 
-Durante la revisión se identificaron problemas en las propuestas
-de diagramas: conexiones incorrectas, recorridos de excepciones
-incompletos y una separación inadecuada de pools y lanes.
+La autora revisó las propuestas y solicitó corregir la separación entre pools y lanes, los mensajes con el proveedor externo y los recorridos de excepción del BPMN. La versión corregida recibió una devolución favorable de la docente.
 
-Se solicitaron ajustes sobre esos resultados. La validación final
-del diagrama BPMN continúa pendiente.
+También se revisaron las historias y sus criterios de aceptación, considerando los datos del proyecto y las restricciones del stock. Se distinguió el avance de documentación y diseño de la implementación en Python, que todavía no se realizó.
 
-Las respuestas de IA se consideran borradores que requieren
-revisión humana. No constituyen evidencia de actividades realizadas
-en GitHub ni de pruebas ejecutadas sobre el sistema.
+Los resultados de IA se utilizaron como borradores sujetos a revisión. No representan pruebas ejecutadas ni funcionalidades implementadas. La responsabilidad del contenido final corresponde a la autora.
+
